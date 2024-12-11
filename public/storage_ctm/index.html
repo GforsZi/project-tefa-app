@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nabot</title>
+  </head>
+      <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <style type="text/css" media="all">
+      .sidebar {
+        width: 400px;
+        margin-left: -300px;
+        transition: 0.4s;
+      }
+      .sidebar:hover {
+        transition: 0.4s;
+        margin-left: 0px;
+      }
+    </style>
+  <body>
+        <nav class="navbar bg-light position-fixed top-0 start-0 end-0 z-3" style="margin-left:100px;">
+      <div class="container-fluid">
+        <div>
+        <a class="d-flex navbar-brand"><h1 class="">Company name</h1></a>
+        </div>
+        <div >
+          
+        <form class="d-flex justify-content-center mx-auto w-100"  role="search">
+          <input
+            class="form-control me-2"
+            style="width: 500px; min-width: 200px"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-dark" type="submit">Search</button>
+        </form>
+        </div>
+        <div>
+        <button type="button" class="btn btn-light">Light</button>
+        <button type="button" class="btn btn-light">Light</button>
+        </div>
+      </div>
+    </nav>
+    <nav class="position-fixed top-0 start-0 bottom-0 bg-dark sidebar z-3">
+      <div class="w-100 d-flex align-items-center border-bottom border-dark-subtle justify-content-between ">
+        <h2 class="text-light ms-3">company</h2>
+      <img class="m-3" src="./20240909_163722_0000.png" width="70px" alt="" />
+      </div>
+      <div class="w-100 my-1 d-flex align-items-center  ">
+        <button type="button" class="btn btn-lg btn-success w-100 py-4 text-start">Success</button>
+      </div>
+      <div class="w-100 my-1 d-flex align-items-center  ">
+        <button type="button" class="btn btn-lg btn-success w-100 py-4 text-start">Success</button>
+      </div>
+      <div class="w-100 my-1 pb-2 d-flex align-items-center border-bottom border-dark-subtle ">
+        <button type="button" class="btn btn-lg btn-success w-100 py-4 text-start">Success</button>
+      </div>
+    </nav>
+    <main style="margin-left:120px; margin-top:100px;">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./20240909_163722_0000.png" class="d-block w-100 object-fit-cover" height="400px" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./20240909_163722_0000.png" class="d-block w-100 object-fit-cover" height="400px" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./20240909_163722_0000.png" class="d-block w-100 object-fit-cover" height="400px" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    <div class="w-100 d-flex justify-content-center mx-auto">
+      <section id="produk"></section>
+      <div class="mx-auto text-center">
+        <div class="row d-flex mx-auto container" id="productList">
+        <div class="col">
+            <div style="min-width: 250px" class="card w-100 mx-2">
+              <a class="" href="#">
+                <img src="./20240909_163722_0000.png" class="card-img-top" alt="..." />
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Produk</h5>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >company name</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        <div class="col">
+            <div style="min-width: 250px" class="card w-100 mx-2">
+              <a class="" href="#">
+                <img src="./20240909_163722_0000.png" class="card-img-top" alt="..." />
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Produk</h5>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >company name</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        <div class="col">
+            <div style="min-width: 250px" class="card w-100 mx-2">
+              <a class="" href="#">
+                <img src="./20240909_163722_0000.png" class="card-img-top" alt="..." />
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Produk</h5>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >company name</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        <div class="col">
+            <div style="min-width: 250px" class="card w-100 mx-2">
+              <a class="" href="#">
+                <img src="./20240909_163722_0000.png" class="card-img-top" alt="..." />
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Produk</h5>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >company name</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        <div class="col">
+            <div style="min-width: 250px" class="card w-100 mx-2">
+              <a class="" href="#">
+                <img src="./20240909_163722_0000.png" class="card-img-top" alt="..." />
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Produk</h5>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >company name</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        <div class="col">
+            <div style="min-width: 250px" class="card w-100 mx-2">
+              <a class="" href="#">
+                <img src="./20240909_163722_0000.png" class="card-img-top" alt="..." />
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Produk</h5>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >company name</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </main>
+  </body>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+</html>
